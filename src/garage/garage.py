@@ -19,6 +19,12 @@ class Car:
         """Provides a user-friendly string representation of the Car object."""
         return f"{self.color} {self.year} {self.make} {self.model}"
 
+    def __eq__(self, other):
+        """Allows for direct comparison of two Car objects."""
+        if not isinstance(other, Car):
+            return NotImplemented
+        return self.__dict__ == other.__dict__
+
 class Garage:
     """Manages a collection of Car objects and handles persistence via a CSV file."""
 
