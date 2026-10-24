@@ -1,5 +1,7 @@
 # Garage Manager
 
+[![Tests](https://github.com/lwrightqa/Garage-Manager/actions/workflows/tests.yml/badge.svg)](https://github.com/lwrightqa/Garage-Manager/actions/workflows/tests.yml)
+
 A simple, command-line application to manage a list of cars in a virtual garage.
 
 This project demonstrates basic Python principles including class-based object-oriented programming, file I/O with CSV, and a complete test suite using pytest.
